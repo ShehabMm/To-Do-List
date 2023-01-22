@@ -7,7 +7,6 @@ function App() {
         <title>To-do-list</title>
         <script defer src="todolist.js"></script>
       </Helmet>
-
       <>
         <h1>To-Do List</h1>
         <section id="sec">
