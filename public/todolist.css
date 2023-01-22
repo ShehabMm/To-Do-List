@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #352f5b;
+  color: white;
+  height: fit-content;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align:center;
+  margin-top: 50px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid red; */
+  height: fit-content;
+  flex-direction: column;
+}
+
+.first-div {
+  position: relative;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: #8ac926;
+  box-shadow: 0 8px 22px 0 rgba(222, 246, 3, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  border-bottom: 3px solid white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 30px;
+}
+
+.first-div2 {
+  position: relative;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  background: #8ac926;
+  box-shadow: 0 8px 22px 0 rgba(222, 246, 3, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  border-bottom: 3px solid white;
+  margin-top: 50px;
+  height: 30px;
+}
+
+.icon {
+  font-size: 26px;
+}
+.icon:hover {
+  font-size: 30px;
+  transition: 0.3sec ease-in-out;
+  opacity: 2;
+  box-shadow: 0 0 30 yellow;
+  cursor: pointer;
+}
+
+p {
+  font-size: 30px;
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+.icon-bin:before {
+  content: "\e9ac";
+}
+
+.trashangry {
+  position: relative;
+  left: 1230px;
+  bottom: 135px;
+  width: fit-content;
+}
+
+.icon-trash {
+  margin: 20px;
+}
+.icon-star {
+  position: relative;
+  right: 10px;
+  bottom: 110px;
+  opacity: 0.5;
+}
+.icon-star:hover {
+  color: orange;
+
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+  opacity: 2;
+  box-shadow: 0 0 30 yellow;
+}
+
+.icon-trash {
+  opacity: 0.6;
+  font-style: 28px;
+}
+
+.icon-trash:hover {
+  color: aqua;
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+.icon-angry {
+  color: rgb(255, 255, 14);
+  opacity: 1px;
+}
+
+.icon-angry:hover {
+  transition: 0.3s ease-in-out;
+  color: black;
+}
+
+.under {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+}
+
+.in {
+  position: relative;
+  width: 600px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 40px;
+  /* border: 5px solid rgb(0, 255, 170); */
+}
+
+h2 {
+  text-align: center;
+}
+
+.icon-upload {
+  position: relative;
+
+  font-size: 35px;
+  left: 103%;
+  top: -40px;
+}
+
+button {
+  all: unset;
+}
+
+.icon-upload:hover {
+  font-size: 40px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  color: aqua;
+}
+
+.fix {
+  display: flex;
+  justify-content: center;
+  /* border: 5px solid rgb(255, 255, 0); */
+  align-content: center;
+}
+.icon-heart {
+  font-size: 26px;
+  color: orangered;
+}
+.icon-heart:hover {
+  font-size: 30px;
+  transition: 0.2s ease-in-out;
+}
+
+/* for javascript */
+.dn {
+  display: none;
+}
+.end {
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+}
+
+.starr {
+  color: orange;
+  opacity: 1;
+}
+
+form {
+  /* margin-bottom: 200px; */
+}
